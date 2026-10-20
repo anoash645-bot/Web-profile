@@ -1,0 +1,59 @@
+:root{--bg:#E6EEF0;--ink:#0A2533;--muted:#52707C;--line:#D5E3E6;--accent:#E8553A;--navy:#0A2533;--btn:#0A2533;--btn-ink:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#06161F;--btn:#E6F1F3;--btn-ink:#06161F;--tb:#E6F1F3}}
+:root[data-theme="dark"]{--bg:#06161F;--btn:#E6F1F3;--btn-ink:#06161F;--tb:#E6F1F3}
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;background:var(--bg);font-family:"Bricolage Grotesque",system-ui,sans-serif;color:var(--ink);font-size:13.5px;line-height:1.55}
+a{color:inherit}
+.toolbar{max-width:794px;margin:0 auto;padding:18px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;color:var(--tb,var(--ink))}
+.toolbar a,.toolbar button{font:600 .9rem "Bricolage Grotesque",sans-serif;text-decoration:none;border:0;cursor:pointer;padding:10px 18px;border-radius:10px;background:var(--btn);color:var(--btn-ink)}
+.toolbar a.back{background:transparent;color:inherit;padding-left:0}
+.sheet{max-width:794px;margin:0 auto 40px;background:#fff;display:grid;grid-template-columns:240px minmax(0,1fr);min-height:1123px;box-shadow:0 30px 60px -30px rgba(0,0,0,.45)}
+aside{background:var(--navy);color:#E6F1F3;padding:34px 22px}
+.photo{display:block;width:132px;height:132px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);margin:0 auto 26px}
+aside h2{font-size:.82rem;font-weight:800;letter-spacing:.08em;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent);display:inline-block}
+aside section{margin-bottom:24px}
+.ct{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.ct small{display:block;color:#8FB0BA;font-size:.72rem}
+.ct a,.ct span{font-size:.82rem;word-break:break-all;text-decoration:none}
+.sk{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.sk li{border:1px solid #2B5265;border-radius:6px;padding:3px 10px;font-size:.8rem;font-weight:600}
+.sg{font-size:.74rem;color:#8FB0BA;margin:0 0 6px}
+.ad{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:.82rem}
+.ad li{position:relative;padding-left:16px}
+.ad li::before{content:"";position:absolute;left:0;top:.5em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.cert b{display:block;font-size:.88rem}
+.cert span{font-size:.78rem;color:#8FB0BA}
+main{padding:36px 32px}
+h1{font-size:1.85rem;line-height:1.08;font-weight:800;letter-spacing:-.025em;margin:0 0 6px}
+.role{color:var(--accent);font-weight:600;margin:0 0 22px;font-size:1rem}
+main h2{font-size:.82rem;font-weight:800;letter-spacing:.08em;margin:0 0 12px;color:var(--navy);display:flex;align-items:center;gap:10px}
+main h2::after{content:"";flex:1;height:1px;background:var(--line)}
+main section{margin-bottom:22px}
+.item{margin-bottom:12px;break-inside:avoid}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.top b{font-size:.96rem;min-width:0}
+.top time{font-size:.78rem;font-weight:600;color:var(--accent);white-space:nowrap}
+.sub{color:var(--muted);font-size:.84rem}
+.item p{margin:2px 0 0;font-size:.86rem}
+.tag{display:inline-block;font-size:.7rem;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 8px;margin-left:6px;vertical-align:1px}
+@media(max-width:700px){.sheet{grid-template-columns:1fr;min-height:0}main{padding:28px 22px}}
+@media print{
+@page{size:A4;margin:0}
+html{font-size:13.5px}
+html,body{background:#fff;width:100%;height:auto;margin:0;padding:0}
+:root{padding:0}
+body{font-size:11.5px}
+.toolbar{display:none}
+.sheet{width:100%;max-width:none;height:296mm;min-height:0;margin:0;box-shadow:none;overflow:hidden;grid-template-columns:64mm minmax(0,1fr);break-inside:avoid;page-break-after:avoid}
+aside{padding:22px 18px}
+.photo{width:112px;height:112px;margin-bottom:18px}
+aside section{margin-bottom:16px}
+main{padding:26px 24px;min-width:0}
+h1{font-size:1.6rem}
+.role{margin-bottom:14px}
+main section{margin-bottom:14px}
+.item{margin-bottom:8px}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}

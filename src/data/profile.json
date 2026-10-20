@@ -1,0 +1,161 @@
+{
+ "name": "Richmond Gaizcha Ashano Longdong",
+ "shortName": "Richo",
+ "degree": "S.Tr.Kom",
+ "role": "Web Developer",
+ "city": "Manado",
+ "region": "Sulawesi Utara",
+ "tagline": "Website yang rapi, cepat, dan bisa diandalkan.",
+ "intro": "Saya Richo, web developer dari Manado dengan sertifikasi BNSP. Saya membangun situs dan aplikasi web dengan JavaScript, dari tampilan sampai logika di sisi server.",
+ "email": "richmond240400@gmail.com",
+ "whatsapp": "62895395364915",
+ "instagram": "ashano99",
+ "facebook": "https://www.facebook.com/share/1Gue5x9nio/",
+ "cvUrl": "/cv",
+ "skills": [
+  {
+   "icon": "JS",
+   "name": "JavaScript",
+   "desc": "Interaksi halaman, validasi, dan logika aplikasi web."
+  },
+  {
+   "icon": "</>",
+   "name": "HTML",
+   "desc": "Struktur halaman yang semantik dan mudah diakses."
+  },
+  {
+   "icon": "{ }",
+   "name": "CSS",
+   "desc": "Tata letak responsif yang nyaman di HP dan desktop."
+  },
+  {
+   "icon": "py",
+   "name": "Python",
+   "desc": "Skrip dan pemrograman dasar di sisi server."
+  },
+  {
+   "icon": "node",
+   "name": "Node.js",
+   "desc": "Server dan API tanpa framework tambahan."
+  }
+ ],
+ "certifications": [
+  {
+   "badge": "BNSP",
+   "title": "Junior Web Development",
+   "desc": "Pelatihan Garuda, bersertifikat Badan Nasional Sertifikasi Profesi (BNSP)."
+  }
+ ],
+ "experience": [
+  {
+   "time": "6 bulan",
+   "title": "Praktik Kerja Lapangan, BAPPEDA Provinsi Sulawesi Utara",
+   "desc": "Bidang Tata Usaha Pengelola (TUP). Membuat website penginputan arsip untuk menyimpan dan mengelola data arsip secara digital dan efisien."
+  }
+ ],
+ "education": [
+  {
+   "time": "2021 – 2026",
+   "title": "Politeknik Negeri Manado",
+   "desc": "D-4 Teknik Informatika, Jurusan Teknik Elektro. Gelar S.Tr.Kom"
+  },
+  {
+   "time": "2016 – 2019",
+   "title": "SMK Yadika Manado",
+   "desc": "Teknik Komputer dan Jaringan"
+  },
+  {
+   "time": "2013 – 2016",
+   "title": "SMP Negeri 1 Talawaan"
+  },
+  {
+   "time": "2007 – 2013",
+   "title": "SD Negeri Kolongan"
+  }
+ ],
+ "projects": [
+  {
+   "title": "Website Paket Wisata Kepulauan Togean",
+   "desc": "Website promosi dan pemesanan paket wisata untuk Wulmufikra Togean Islands Tour & Travel. Dibangun dengan JavaScript murni di sisi tampilan maupun server (Node.js tanpa library tambahan), halaman dirender di server untuk SEO, dengan form pemesanan lewat WhatsApp.",
+   "tags": [
+    "JavaScript",
+    "Node.js",
+    "SEO",
+    "Vercel"
+   ],
+   "url": "https://trip-wisata.vercel.app/"
+  },
+  {
+   "title": "Smart Absensi Mahasiswa",
+   "desc": "Tugas Akhir di Politeknik Negeri Manado. Kehadiran tercatat otomatis (hadir, terlambat, tidak hadir) saat mahasiswa memasuki kelas, dikontrol lewat CCTV di dalam kelas.",
+   "tags": [
+    "Tugas Akhir",
+    "CCTV",
+    "Absensi otomatis"
+   ]
+  },
+  {
+   "title": "Monitoring Ikan dan Terumbu Karang",
+   "desc": "Proyek berbasis web untuk memantau kondisi ikan dan terumbu karang di laut secara real-time di Desa Bahoy.",
+   "tags": [
+    "Web",
+    "Real-time",
+    "Karya kuliah"
+   ]
+  },
+  {
+   "title": "Website Penginputan Arsip",
+   "desc": "Dibuat saat PKL di BAPPEDA Provinsi Sulawesi Utara untuk menyimpan dan mengelola data arsip secara digital dan efisien.",
+   "tags": [
+    "Web",
+    "Arsip digital",
+    "PKL"
+   ]
+  }
+ ],
+ "whatsappLabel": "+62 895-3953-64915",
+ "cv": {
+  "summary": "Lulusan D-4 Teknik Informatika Politeknik Negeri Manado dengan sertifikasi BNSP di bidang Junior Web Development. Terbiasa membangun aplikasi web dari awal, mulai dari sistem absensi otomatis, pemantauan terumbu karang secara real-time, hingga website arsip digital untuk instansi pemerintah. Menguasai Microsoft Office (Word, Excel, PowerPoint). Terbuka untuk proyek dan kolaborasi.",
+  "office": [
+   "Word",
+   "Excel",
+   "PowerPoint"
+  ],
+  "strengths": [
+   "Terbiasa membangun aplikasi web dari awal",
+   "Pengalaman kerja di instansi pemerintah",
+   "Bersertifikat BNSP",
+   "Mampu mengelola data arsip secara digital"
+  ],
+  "experience": [
+   {
+    "role": "Praktik Kerja Lapangan",
+    "place": "BAPPEDA Provinsi Sulawesi Utara, Bidang Tata Usaha Pengelola (TUP)",
+    "time": "6 bulan",
+    "desc": "Membuat website penginputan arsip untuk menyimpan dan mengelola data arsip secara digital dan efisien."
+   }
+  ],
+  "projects": [
+   {
+    "title": "Smart Absensi Mahasiswa",
+    "tag": "Tugas Akhir",
+    "desc": "Sistem absensi otomatis: saat memasuki kelas, mahasiswa tercatat hadir, terlambat, atau tidak hadir tanpa absen manual. Dikontrol lewat CCTV di dalam kelas yang juga berfungsi sebagai alat absensi."
+   },
+   {
+    "title": "Monitoring Ikan dan Terumbu Karang",
+    "tag": "Karya kuliah",
+    "desc": "Proyek berbasis web untuk memantau kondisi ikan dan terumbu karang di laut secara real-time di Desa Bahoy."
+   },
+   {
+    "title": "Website Penginputan Arsip",
+    "tag": "PKL",
+    "desc": "Website penyimpanan dan pengelolaan data arsip digital di BAPPEDA Provinsi Sulawesi Utara."
+   },
+   {
+    "title": "Website Paket Wisata Kepulauan Togean",
+    "desc": "Website promosi dan pemesanan paket wisata dengan JavaScript murni dan Node.js, halaman dirender di server untuk SEO, form pemesanan lewat WhatsApp.",
+    "url": "https://trip-wisata.vercel.app/"
+   }
+  ]
+ }
+}
